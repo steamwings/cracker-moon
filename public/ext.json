@@ -1,11 +1,11 @@
 {
-  "identifier": "dev.randombits.template",
-  "name": "Extension Template",
+  "identifier": "cracker-moon",
+  "name": "cracker moon visual markdown",
   "content_type": "SN|Component",
   "area": "editor-editor",
   "version": "$VERSION$",
-  "description": "A custom editor",
-  "url": "https://nienow.github.io/sn-extension-template/",
-  "download_url": "https://nienow.github.io/sn-extension-template/latest.zip",
-  "latest_url": "https://nienow.github.io/sn-extension-template/ext.json"
+  "description": "A WYSIWYG editor using HackerNoon's rich-markdown-editor",
+  "url": "https://steamwings.github.io/cracker-moon/",
+  "download_url": "https://steamwings.github.io/cracker-moon/latest.zip",
+  "latest_url": "https://steamwings.github.io/cracker-moon/ext.json"
 }
