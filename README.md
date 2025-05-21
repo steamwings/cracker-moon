@@ -28,18 +28,25 @@ For every release
 
 - Update the `version` in [package.json](package.json)
 
-Run demo
+### Run demo
 
 ```sh
 pnpm run start
 ```
 
-Serve local.json for W/LAN install to Standard Notes
+### Serve local.json to Standard Notes
 
 ```sh
 npm install -g http-server # Run once
 http-server dist/ -p 8080 --cors
-
-# Use a URL like this to install
-# http://192.168.50.185:8080/local.json
 ```
+
+### Test on mobile
+
+You may be able to serve over your local WAN using a URL like
+
+```url
+http://192.168.50.185:8080/local.json
+```
+
+You will also need to change the URLs in public/local.json and rebuild `pnpm run build`.
