@@ -1,6 +1,6 @@
 {
   "name": "cracker-moon",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack",

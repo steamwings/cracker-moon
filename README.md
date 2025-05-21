@@ -16,6 +16,14 @@ https://steamwings.github.io/cracker-moon/ext.json
 
 ## development
 
+For every PR
+
+- Update the [changelog](CHANGELOG.md)
+
+For every release
+
+- Update the `version` in [package.json](package.json)
+
 Run demo
 
 ```sh

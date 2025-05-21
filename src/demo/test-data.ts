@@ -10,7 +10,9 @@ const EMPTY = {
 };
 const SMALL = {
   title: 'Small',
-  text: 'This is the note content for the small example',
+  text: 'This is the note content for the small example\n\n\
+  [google](https://www.google.com)\
+  ',
   meta: {
     rows: 3
   }

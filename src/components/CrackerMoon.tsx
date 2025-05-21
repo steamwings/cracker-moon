@@ -25,7 +25,7 @@ class CrackerMoon extends React.Component {
 
   onClickLink = async (href, _event) => {
     let url = new URL(href);
-    if (url.pathname == '/' && url.hash.length > 0) {
+    if (url.pathname === '/') {
       window.open(href, "_blank");
     }
     // NOTE `this.editor.scrollToAnchor(url.hash)` is available
