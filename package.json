@@ -1,6 +1,6 @@
 {
   "name": "cracker-moon",
-  "version": "0.0.0-alpha.1",
+  "version": "0.0.1",
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack",
@@ -10,7 +10,6 @@
     "@hackernoon/rich-markdown-editor": "^0.0.28",
     "@preact/compat": "^18.3.1",
     "preact": "^10.26.6",
-    "radash": "^12.1.0",
     "sn-extension-api": "0.3.4"
   },
   "devDependencies": {
