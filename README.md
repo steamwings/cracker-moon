@@ -14,6 +14,10 @@ Navigate to `Account settings` -> `Plugins`. Scroll to `Install Custom Plugin` a
 https://steamwings.github.io/cracker-moon/ext.json
 ```
 
+## update
+
+Same as install. You may need to restart the app for the new version to be used.
+
 ## development
 
 For every PR
