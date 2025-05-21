@@ -6,6 +6,14 @@ A [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) [Markdown](https://www.markdo
 - inspired by the original SN rich markdown editor plugin [sn-rme](https://github.com/arturolinares/sn-rme).
 - bootstrapped with [sn-extension-template](https://github.com/nienow/sn-extension-template)
 
+## install
+
+Navigate to `Account settings` -> `Plugins`. Scroll to `Install Custom Plugin` and enter
+
+```curl
+https://steamwings.github.io/cracker-moon/ext.json
+```
+
 ## development
 
 Run demo
