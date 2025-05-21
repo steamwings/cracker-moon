@@ -5,3 +5,21 @@ A [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) [Markdown](https://www.markdo
 - uses HackerNoon's [rich-markdown-editor](https://github.com/hackernoon/rich-markdown-editor).
 - inspired by the original SN rich markdown editor plugin [sn-rme](https://github.com/arturolinares/sn-rme).
 - bootstrapped with [sn-extension-template](https://github.com/nienow/sn-extension-template)
+
+## development
+
+Run demo
+
+```sh
+pnpm run start
+```
+
+Serve local.json for W/LAN install to Standard Notes
+
+```sh
+npm install -g http-server # Run once
+http-server . -p 8080 --cors
+
+# Use a URL like this to install
+# http://192.168.50.185:8080/local.json
+```
