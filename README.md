@@ -38,7 +38,7 @@ Serve local.json for W/LAN install to Standard Notes
 
 ```sh
 npm install -g http-server # Run once
-http-server . -p 8080 --cors
+http-server dist/ -p 8080 --cors
 
 # Use a URL like this to install
 # http://192.168.50.185:8080/local.json
