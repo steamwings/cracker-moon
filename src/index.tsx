@@ -10,7 +10,9 @@ const root = createRoot(document.getElementById('root'));
 export const rerenderRoot = () => {
   root.render(
     <React.StrictMode>
-      <CrackerMoon/>
+      <div className="App">
+        <CrackerMoon/>
+      </div>
     </React.StrictMode>
   );
 };

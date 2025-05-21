@@ -7,9 +7,11 @@ html {
   font-family: var(--sn-stylekit-sans-serif-font);
   font-size: var(--sn-stylekit-font-size-editor);
   height: 100%;
-  margin: 0;
-  padding: 0;
   width: 100%;
+}
+
+body {
+  margin: 10px 35px 0px 35px;
 }
 
 .main__Default {
@@ -44,4 +46,11 @@ button {
   background-color: var(--sn-stylekit-contrast-background-color);
   border: 1px solid var(--sn-stylekit-border-color);
   cursor: pointer;
+}
+
+.App {
+  // Remove the margin from the first child in case it would be added (e.g. for primary header)
+  :nth-child(2) {
+    margin-top: 0px
+  }
 }
