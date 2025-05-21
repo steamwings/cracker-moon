@@ -1,9 +1,9 @@
 {
   "identifier": "cracker-moon",
-  "name": "cracker moon visual markdown",
+  "name": "cracker moon markdown",
   "content_type": "SN|Component",
   "area": "editor-editor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A WYSIWYG editor using HackerNoon's rich-markdown-editor",
   "url": "https://steamwings.github.io/cracker-moon/",
   "download_url": "https://steamwings.github.io/cracker-moon/latest.zip",
