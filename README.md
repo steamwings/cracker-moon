@@ -38,10 +38,10 @@ pnpm run start
 
 ```sh
 npm install -g http-server # Run once
-http-server dist/ -p 8080 --cors
+pnpm run preview
 ```
 
-### Test on mobile
+### Testing on mobile
 
 You may be able to serve over your local WAN using a URL like
 
