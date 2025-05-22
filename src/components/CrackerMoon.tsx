@@ -34,6 +34,20 @@ class CrackerMoon extends React.Component {
     // An SN API update would be required to navigate to tags or other notes.
   }
 
+  uploadImage = async (file: File) => {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => {
+        console.log('reader.result', reader.result);
+        resolve(reader.result);
+      };
+      reader.onerror = error => {
+        reject(error);
+      };
+      reader.readAsDataURL(file);
+    });
+  }
+
   render() {
     return (
       <Editor
@@ -48,9 +62,7 @@ class CrackerMoon extends React.Component {
         theme={theme}
         onSearchLink={this.onSearchLink.bind(this)}
         onClickLink={this.onClickLink.bind(this)}
-        uploadImage={async (file) => {
-          return URL.createObjectURL(file);
-        }}
+        uploadImage={this.uploadImage.bind(this)}
       />
     );
   }

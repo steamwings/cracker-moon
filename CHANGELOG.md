@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Nothing yet.
 
+## [v0.0.5] - 2025-05-22
+
+### Fixed
+
+- Use readAsDataURL for converting images to base64 URIs. (Images were not getting converted to a base64 URI before.)
+
 ## [v0.0.4] - 2025-05-21
 
 ### Fixed
