@@ -13,10 +13,10 @@ importers:
         version: 0.0.34(prop-types@15.8.1)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(styled-components@5.3.11(@babel/core@7.29.0)(react-dom@17.0.2(react@17.0.2))(react-is@16.13.1)(react@17.0.2))
       '@preact/compat':
         specifier: ^18.3.2
-        version: 18.3.2(preact@10.28.4)
+        version: 18.3.2(preact@10.29.0)
       preact:
-        specifier: ^10.28.4
-        version: 10.28.4
+        specifier: ^10.29.0
+        version: 10.29.0
       sn-extension-api:
         specifier: 0.4.0
         version: 0.4.0
@@ -55,11 +55,11 @@ importers:
         specifier: ^1.2.2
         version: 1.2.2
       sass:
-        specifier: ^1.97.3
-        version: 1.97.3
+        specifier: ^1.98.0
+        version: 1.98.0
       sass-loader:
         specifier: ^16.0.7
-        version: 16.0.7(sass@1.97.3)(webpack@5.105.4)
+        version: 16.0.7(sass@1.98.0)(webpack@5.105.4)
       style-loader:
         specifier: ^4.0.0
         version: 4.0.0(webpack@5.105.4)
@@ -2786,8 +2786,8 @@ packages:
     resolution: {integrity: sha512-OW/rX8O/jXnm82Ey1k44pObPtdblfiuWnrd8X7GJ7emImCOstunGbXUpp7HdBrFQX6rJzn3sPT397Wp5aCwCHg==}
     engines: {node: ^10 || ^12 || >=14}
 
-  preact@10.28.4:
-    resolution: {integrity: sha512-uKFfOHWuSNpRFVTnljsCluEFq57OKT+0QdOiQo8XWnQ/pSvg7OpX5eNOejELXJMWy+BwM2nobz0FkvzmnpCNsQ==}
+  preact@10.29.0:
+    resolution: {integrity: sha512-wSAGyk2bYR1c7t3SZ3jHcM6xy0lcBcDel6lODcs9ME6Th++Dx2KU+6D3HD8wMMKGA8Wpw7OMd3/4RGzYRpzwRg==}
 
   prepend-http@2.0.0:
     resolution: {integrity: sha512-ravE6m9Atw9Z/jjttRUZ+clIXogdghyZAuWJ3qEzjT+jI/dL1ifAqhZeC5VHzQp1MSt1+jxKkFNemj/iO7tVUA==}
@@ -3086,8 +3086,8 @@ packages:
       webpack:
         optional: true
 
-  sass@1.97.3:
-    resolution: {integrity: sha512-fDz1zJpd5GycprAbu4Q2PV/RprsRtKC/0z82z0JLgdytmcq0+ujJbJ/09bPGDxCLkKY3Np5cRAOcWiVkLXJURg==}
+  sass@1.98.0:
+    resolution: {integrity: sha512-+4N/u9dZ4PrgzGgPlKnaaRQx64RO0JBKs9sDhQ2pLgN6JQZ25uPQZKQYaBJU48Kd5BxgXoJ4e09Dq7nMcOUW3A==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -4707,9 +4707,9 @@ snapshots:
       tslib: 2.8.1
       tsyringe: 4.10.0
 
-  '@preact/compat@18.3.2(preact@10.28.4)':
+  '@preact/compat@18.3.2(preact@10.29.0)':
     dependencies:
-      preact: 10.28.4
+      preact: 10.29.0
 
   '@sindresorhus/is@0.7.0': {}
 
@@ -6768,7 +6768,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  preact@10.28.4: {}
+  preact@10.29.0: {}
 
   prepend-http@2.0.0: {}
 
@@ -7090,14 +7090,14 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sass-loader@16.0.7(sass@1.97.3)(webpack@5.105.4):
+  sass-loader@16.0.7(sass@1.98.0)(webpack@5.105.4):
     dependencies:
       neo-async: 2.6.2
     optionalDependencies:
-      sass: 1.97.3
+      sass: 1.98.0
       webpack: 5.105.4(webpack-cli@6.0.1)
 
-  sass@1.97.3:
+  sass@1.98.0:
     dependencies:
       chokidar: 4.0.3
       immutable: 5.1.5
